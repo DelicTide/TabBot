@@ -15,7 +15,7 @@ Step :
 
 Step two:
 
-    annodate images: makesense.ai (manual human object labeling and bounding)
+    annotate images: makesense.ai (manual human object labeling and bounding)
 
 Step three:
 
