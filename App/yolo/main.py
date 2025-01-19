@@ -87,7 +87,7 @@ def process_images(onnx_model, input_folder, with_tabs_folder, without_tabs_fold
         tab_detected = False
         for detection in outputs[0]:
             confidence = detection[4]
-            if confidence >= 0.25:  # Confidence threshold
+            if confidence >= 0.51:  # Confidence threshold
                 tab_detected = True
                 break
 
